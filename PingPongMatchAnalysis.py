@@ -51,7 +51,7 @@ def printSummary(winsA, winsB):
 
 def main():
     probA, probB, n = getInputs()
-    winsA,winsB = simNGames(n, probA, probB)
+    winsA,winsB = simNGames(n, probA, probB)#获胜场次函数
     
     printSummary(winsA, winsB)
 
