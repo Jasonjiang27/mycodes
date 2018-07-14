@@ -1,7 +1,7 @@
 from PIL import Image
 import argparse
 
-#命令行输入参数处理
+#命令行输入参数处理， python3 ascii.py ascii_dora.png
 parser = argparse.ArgumentParser()
 
 parser.add_argument('file')  #输入文件
